@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        http-equiv="X-UA-Compatible"
+        content="IE=edge"
+    >
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <style>
+        body {
+            background: linear-gradient(90.7deg, rgb(255, 253, 218) 1.9%, rgb(246, 210, 255) 39.3%, rgb(152, 222, 254) 64.7%, rgb(251, 255, 210) 100.8%);
+        }
+
+        .top-center-container {
+            text-align: center;
+            justify-content: center;
+        }
+
+        .living-yoga-logo {
+            max-width: 200px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            text-decoration: none;
+            vertical-align: middle;
+            cursor: pointer;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        image {
+            max-width: 100%;
+        }
+
+        .tryout-button {
+            text-align: center;
+            justify-content: center;
+            display: block;
+            margin: 0 auto;
+            border: 1px solid black;
+            background: rgba(0, 128, 0, 0.663);
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 20px;
+            max-width: 175px;
+            padding: 10px 15px;
+            transition: all 150ms ease-in-out;
+        }
+
+        .tryout-button:hover {
+            background: linear-gradient(90.7deg, rgb(255, 253, 218) 1.9%, rgb(246, 210, 255) 39.3%, rgb(152, 222, 254) 64.7%, rgb(251, 255, 210) 100.8%);
+            cursor: pointer;
+            border-radius: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        .change-theme-button {
+            margin-top: 10px;
+            text-align: center;
+            font-size: 15px;
+            background: black;
+            color: white;
+            border-radius: 10px;
+            padding: 5px 8px;
+        }
+
+        .change-theme-button:hover {
+            color: black;
+            background: white;
+        }
+
+        .image-gallery-grid {
+            display: grid;
+            grid-gap: 5px;
+        }
+
+        .image-gallery-grid img {
+            width: 600px;
+            height: 350px;
+        }
+
+        .hot-yoga-intro-picture {
+            border-radius: 10px;
+            transition: transform 150ms ease-in-out, filter 500ms ease-in;
+        }
+
+        .hot-yoga-intro-picture:hover {
+            filter: contrast(50%);
+            transform: scale(1.1);
+        }
+
+        .hot-yoga-intro-picture {
+            border-radius: 10px;
+            transition: transform 150ms ease-in-out, filter 500ms ease-in;
+        }
+
+        .hot-yoga-intro-picture:hover {
+            filter: contrast(50%);
+            transform: scale(1.1);
+        }
+
+        .picture-gallery-grid {
+            margin: 15px 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-gap: 20px;
+        }
+
+        .picture-gallery-grid img {
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+            transition: all 150ms ease-in-out;
+        }
+
+        .picture-gallery-grid img:hover {
+            transform: scale(2);
+        }
+
+        .dark {
+            background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
+            color: white;
+        }
+
+        .dark .container {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .dark a {
+            color: white;
+        }
+    </style>
+    <title>Hot Yoga | SheCodes Basic Add-on Project</title>
+</head>
+
+<body class="dark">
+    <div class="top-center-container">
+        <button
+            type="button"
+            id="change-theme-button"
+            class="change-theme-button"
+        >CHANGE THEME</button>
+    </div>
+    <div class="container">
+        <a
+            href="https://mylivingyoga.com/"
+            target="_blank"
+        >
+            <img
+                src="	https://mylivingyoga.com/wp-content/uploads/2023/12/NEW-LY-LOGO.png"
+                class="living-yoga-logo"
+                alt="Living Yoga Logo"
+            >
+        </a>
+        <h1>🪷 What is Hot Yoga?</h1>
+        <h2>My favourite type of yoga 🙏</h2>
+        <div class="image-gallery-grid">
+            <a
+                href="https://en.wikipedia.org/wiki/Hot_yoga#cite_note-Hewett_et_al_2015-3"
+                target="_blank"
+                alt="about hot yoga"
+            >
+                <img
+                    src="https://cdn.vox-cdn.com/thumbor/bL3EFJuCFFVYgn_ljuVC3XTt_bE=/0x12:1024x780/1200x800/filters:focal(0x12:1024x780)/cdn.vox-cdn.com/uploads/chorus_image/image/46294764/bikram-yoga1.0.0.png"
+                    alt="warrior pose"
+                    class="hot-yoga-intro-picture"
+                ></a>
+            <div class="picture-gallery-grid">
+                <img
+                    src="https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2022/02/hot-yoga-studio-poses-header-1024x575.jpg?w=1155&h=1528"
+                    alt="dancer's pose"
+                >
+                <img
+                    src="https://images.squarespace-cdn.com/content/v1/6086e2a5bf366f6273c2471c/1694714433990-A1C3VN07I3BVKAQ5CV41/Hot%2Byoga%2Bphoto.png"
+                    alt="parsarita padottasana pose"
+                >
+                <img
+                    src="https://images.theconversation.com/files/531978/original/file-20230614-5814-714epl.jpg?ixlib=rb-1.1.0&rect=53%2C7%2C5038%2C3374&q=45&auto=format&w=926&fit=clip"
+                    alt="downward facing dog pose"
+                >
+                <img
+                    src="https://images.ctfassets.net/go5rjm58sryl/2nVbkTqcjiOUFbqU8ehlnL/6150bd54874a966de343fb6d2f90b4b1/Blog_Photo_29?fm=webp&q=75&w=932&h=517&fit=fill&f=top"
+                    alt="eagle pose"
+                >
+            </div>
+        </div>
+        <p>Hot yoga is a form of yoga as exercise performed under hot and humid conditions, resulting in considerable
+            sweating. Some hot yoga practices seek to replicate the heat and humidity of India, where yoga originated.
+            The heat promotes cardiovascular and respiratory health, burns more calories, and encourages the body to
+            sweat out toxins and impurities through the skin.
+            <br>
+            <br>
+            💻
+            <a href="https://en.wikipedia.org/wiki/Hot_yoga">
+                <strong>More on Wikipedia</strong>
+            </a>
+        </p>
+        <a
+            class="tryout-button"
+            href="https://mylivingyoga.com/new-students/"
+            title="New student"
+        >Tryout 🔥 Hot 🧘🏻‍♀️ Yoga</a>
+    </div>
+    <footer class="text-align-center">Coded by <a
+            href="https://vermillion-haupia-6e7987.netlify.app/"
+            target="_blank"
+        >Lorena Parreno</a> 👩🏻‍💻 with HTML, CSS, and JavaScript</footer>
+    <script>
+        function changeTheme() {
+            let body = document.querySelector("body");
+
+            //body.classList.toggle("dark");
+
+            if (body.classList.contains("dark")) {
+                body.classList.remove("dark");
+            } else {
+                body.classList.add("dark");
+            }
+        }
+
+        let changeThemeButton = document.querySelector(".change-theme-button");
+        changeThemeButton.addEventListener("click", changeTheme);
+    </script>
+</body>
+
+</html>
